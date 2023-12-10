@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Image Search App</h1>
+
+    <form action="">
+      <input
+        type="text"
+        id="search-input"
+        oninput="test(this)"
+        placeholder="Search for images"
+      />
+
+      <button id="search-button">Search</button>
+    </form>
+    <div id="searchResults" class="search-results">
+      <div onclick="console.log(this)" class="search-result">
+        <img src="baby.jpg" alt="Diving in the sea" />
+        <a
+          href="https://unsplash.com/photos/a-baby-wrapped-in-a-blanket-sleeping-on-a-bed-tg8TBV7Xh-c"
+          target="_blank"
+        >
+          Diving in the sea</a
+        >
+      </div>
+
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpbGR8ZW58MHx8MHx8fDA%3D"
+          alt="Diving in the sea"
+        />
+        <a
+          href="https://unsplash.com/photos/a-baby-wrapped-in-a-blanket-sleeping-on-a-bed-tg8TBV7Xh-c"
+          target="_blank"
+        >
+          Diving in the sea</a
+        >
+      </div>
+
+      <div class="search-result">
+        <img src="baby.jpg" alt="Diving in the sea" />
+        <a
+          href="https://unsplash.com/photos/a-baby-wrapped-in-a-blanket-sleeping-on-a-bed-tg8TBV7Xh-c"
+          target="_blank"
+        >
+          Diving in the sea</a
+        >
+      </div>
+    </div>
+
+    <button id="show-more-button">show more</button>
+  </body>
+
+  <script src="script.js"></script>
+</html>
