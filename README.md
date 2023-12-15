@@ -1,5 +1,5 @@
 # Instructions
-**Build a search tool that searches images among other images in a local database (of your creation)**
+***Build a search tool that searches images among other images in a local database (of your creation)***
 
 ### Create and make the user interface using html css and javascript
 ```
