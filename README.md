@@ -1,7 +1,7 @@
 # Instructions
 ***Build a search web page that searches images among other images in a local database (of your creation)***
 
-### Create and make the user interface using html css and javascript
+### Create the user interface using html css and javascript
 ```
 <!DOCTYPE html>
 
