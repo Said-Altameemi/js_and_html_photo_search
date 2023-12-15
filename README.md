@@ -1,5 +1,5 @@
 # Instructions
-***Build a search tool that searches images among other images in a local database (of your creation)***
+**Build a search tool that searches images among other images in a local database (of your creation)**
 
 ### Create and make the user interface using html css and javascript
 ```
@@ -71,7 +71,7 @@
 
 ```
 
-#### Create an array that hold objects of images and image realated data
+#### Create an array that holds 30 image-info objects
 ```
 //For example
 const obj1 = {
@@ -85,21 +85,10 @@ const obj1 = {
 const arrOfObjs = [obj1, ...other objects];
 ```
 
-### TO ADD USER TO SUDU GROUP
-```
-$usermod -aG sudo usernameher
-```
-### TO LOGIN AS THE NEW USER CREATED
-```
-$sudo su - usernamehere
-```
-### TO CHECK WHICH USER IS IN USE
-```
-$whoami => the result will be the username in use
-```
-### TO CHANGE TO ANOTHER USER
-```
-$su - usernamehere
-```
-### TO REMOVE A USER
+## Other requiremnts
+ 1. Receive input on typing
+ 2. Display ```Nothing found``` if searched value do not match
+ 3. Display 20 divs of images with their titles(which is the default user interface of the page) if search is empty
+ 4. Display searched images if searched value matches or is contained within any image's discription in your created database
+
 
