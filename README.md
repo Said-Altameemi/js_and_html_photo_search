@@ -87,7 +87,7 @@ const arrOfObjs = [obj1, ...other objects];
 
 ## Other requiremnts
  1. Receive input on typing
- 2. Display ```Nothing found``` if searched value  does not matche or isn't included within any image's discription in your created database
+ 2. Display ```Nothing found``` if searched value  does not match or isn't included within any image's discription in your created database
  3. Display 20 divs of images with their titles(which is the default user interface of the page) if search-input is empty
  4. Display searched images if searched value matches or is contained within any image's discription in your created database
 
